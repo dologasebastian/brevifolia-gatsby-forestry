@@ -38,7 +38,7 @@ fields:
 - name: test
   type: include
   config: {}
-  template: info-page
+  template: site-info
   label: Test
 pages:
 - content/posts/an-essay-on-walking.md
