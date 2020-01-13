@@ -29,7 +29,7 @@ sections:
   path: config.json
   label: Site Info
 upload_dir: content
-public_path: "/content/images"
+public_path: "/content"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
