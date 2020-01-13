@@ -7,8 +7,9 @@ sections:
 - type: heading
   label: Content
 - type: document
-  path: content/posts
+  path: content/data/authors.yaml
   label: Test
+  match: "**/*"
 - type: directory
   path: content/posts
   label: Blog Posts
