@@ -6,10 +6,6 @@ webhook_url:
 sections:
 - type: heading
   label: Content
-- type: document
-  path: content/data/authors.yaml
-  label: Test
-  match: "**/*"
 - type: directory
   path: content/posts
   label: Blog Posts
