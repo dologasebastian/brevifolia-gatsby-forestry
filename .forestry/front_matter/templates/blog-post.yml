@@ -2,6 +2,11 @@
 label: Blog Post
 hide_body: false
 fields:
+- name: test
+  type: include
+  config: {}
+  template: site-info
+  label: Test
 - type: text
   name: title
   label: title
@@ -35,11 +40,6 @@ fields:
   label: hero image
   description: Enter hero image for blog post here
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
-- name: test
-  type: include
-  config: {}
-  template: site-info
-  label: Test
 pages:
 - content/posts/an-essay-on-walking.md
 - content/posts/ne-te-quaesiveris-extra.md
