@@ -1,6 +1,7 @@
 ---
 label: Test
 hide_body: true
+display_field: title
 fields:
 - name: label
   type: include
